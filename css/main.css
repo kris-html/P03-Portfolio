@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(253, 251, 242);
+}
+
+/* HEADER */
+
 .top-header{
     overflow: hidden;
     background-color: rgb(116, 121, 254);
@@ -15,3 +21,23 @@
 .top-header-right{
     float: right;
 }
+
+/* HEADER */
+
+/* CONTENT */
+.phase{
+    display: flex;
+    flex-direction: row;
+
+    margin: 5em;
+}
+
+.artifact{
+
+}
+
+.analysis{
+    padding: 2em;
+}
+
+/* CONTENT */
