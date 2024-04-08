@@ -1,5 +1,7 @@
 body{
     background-color: rgb(253, 251, 242);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 /* HEADER */
@@ -25,19 +27,53 @@ body{
 /* HEADER */
 
 /* CONTENT */
+.phase-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artifact-main{
+    img{
+        width:70%;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+.analysis-main{
+    max-width: 60%;
+    text-align: center;
+}
+
+hr{
+    max-width: 30%;
+    margin-top: 6em;
+    height: 2px;
+    background-color: rgb(191, 188, 223);
+}
+
 .phase{
     display: flex;
     flex-direction: row;
-
     margin: 5em;
+    padding: 2em;
+
+    background-color: rgb(185, 191, 245);
 }
 
 .artifact{
-
+    img{
+        width:100%;
+        height: auto;
+    }
 }
 
 .analysis{
     padding: 2em;
+    max-width: 50%;
+    padding-top: 0;
 }
 
 /* CONTENT */
