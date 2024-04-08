@@ -36,8 +36,8 @@ body{
 
 .artifact-main{
     img{
-        width:70%;
-        height: auto;
+        width:auto;
+        height: 32em;
         justify-content: center;
     }
 }
@@ -60,7 +60,7 @@ hr{
     margin: 5em;
     padding: 2em;
 
-    background-color: rgb(185, 191, 245);
+    background-color: rgb(216, 219, 247);
 }
 
 .artifact{
