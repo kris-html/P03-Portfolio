@@ -1,7 +1,7 @@
 body{
     background-color: rgb(253, 251, 242);
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(67, 67, 67);
 }
 
@@ -69,7 +69,7 @@ h1{
 .artifact-main{
     img{
         width:auto;
-        height: 32em;
+        height: 40em;
         justify-content: center;
     }
 }
@@ -86,26 +86,45 @@ hr{
     background-color: rgb(191, 188, 223);
 }
 
+.phase-section{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    background-color: rgb(216, 219, 247);
+
+    margin: 10em 2em;
+    padding: 1em 4em;
+}
+
 .phase{
     display: flex;
-    flex-direction: row;
-    margin: 5em;
-    padding: 2em;
-
+    flex-direction: column;
     background-color: rgb(216, 219, 247);
+    align-content: center;
+    align-items: center;
+}
+
+.phase-end{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 219, 247);
+    align-content: center;
+
+    margin: 3em 4em;
+    padding: 1em 3em;
 }
 
 .artifact{
     img{
-        width:80%;
+        width:100%;
         height: auto;
     }
 }
 
 .analysis{
-    padding: 2em;
-    max-width: 50%;
     padding-top: 0;
+    max-width: 90%;
 }
 
 /* PORTFOLIO */
